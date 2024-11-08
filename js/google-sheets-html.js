@@ -127,45 +127,45 @@ function rowsCount(item){
      $('#conDiv').append('<div class="strip"><div class="posi"><span>'+(counter+1)+'</span></div><div><img src="" id="u_img_'+id+'" alt="" class="imgclassSmall"></div><div class="textLeft"><p>'+times+'<br> Sk ID:<a href="http://www.kktv1.com/m/?roomid='+id+'">'+id+'</a></p></div><div><p>'+name+'<img src="img/bean-min.png" alt="" class="imgClass4"></p></div></div>');
     
   }
+  // if(counter == 11)
+  // {
+  //   $('#silverRankFrame1').append('<img src="" id="u_img_'+id+'" alt="" class="imgClass1"><br><p class="newText">'+times+'<br> Sk ID:<a href="http://www.kktv1.com/m/?roomid='+id+'">'+id+'</a><br>'+name+'<img src="img/bean-min.png" alt="" class="imgClass4"></p>');
+  // }
+  // if(counter == 10){
+  //   $('#goldRankFrame1').append('<img src="" id="u_img_'+id+'" alt="" class="imgClass2"><br><p class="newText">'+times+'<br> Sk ID:<a href="http://www.kktv1.com/m/?roomid='+id+'">'+id+'</a><br>'+name+'<img src="img/bean-min.png" alt="" class="imgClass4"></p>');
+  // }
+  // if(counter == 12){
+  //   $('#bronzeRankFrame1').append('<img src="" id="u_img_'+id+'" alt="" class="imgClass3"><br><p class="newText">'+times+'<br> Sk ID:<a href="http://www.kktv1.com/m/?roomid='+id+'">'+id+'</a><br>'+name+'<img src="img/bean-min.png" alt="" class="imgClass4"></p>');
+  // }
+  // if(counter>=13   &&  counter<14){
+  //    $('#conDiv1').append('<div class="strip"><div class="posi"><span>'+(counter1+1)+'</span></div><div><img src="" id="u_img_'+id+'" alt="" class="imgclassSmall"></div><div class="textLeft"><p>'+times+'<br> Sk ID:<a href="http://www.kktv1.com/m/?roomid='+id+'">'+id+'</a></p></div><div><p>'+name+'<img src="img/bean-min.png" alt="" class="imgClass4"></p></div></div>');
+  //   counter1++;
+  // }
   if(counter == 11)
-  {
-    $('#silverRankFrame1').append('<img src="" id="u_img_'+id+'" alt="" class="imgClass1"><br><p class="newText">'+times+'<br> Sk ID:<a href="http://www.kktv1.com/m/?roomid='+id+'">'+id+'</a><br>'+name+'<img src="img/bean-min.png" alt="" class="imgClass4"></p>');
-  }
-  if(counter == 10){
-    $('#goldRankFrame1').append('<img src="" id="u_img_'+id+'" alt="" class="imgClass2"><br><p class="newText">'+times+'<br> Sk ID:<a href="http://www.kktv1.com/m/?roomid='+id+'">'+id+'</a><br>'+name+'<img src="img/bean-min.png" alt="" class="imgClass4"></p>');
-  }
-  if(counter == 12){
-    $('#bronzeRankFrame1').append('<img src="" id="u_img_'+id+'" alt="" class="imgClass3"><br><p class="newText">'+times+'<br> Sk ID:<a href="http://www.kktv1.com/m/?roomid='+id+'">'+id+'</a><br>'+name+'<img src="img/bean-min.png" alt="" class="imgClass4"></p>');
-  }
-  if(counter>=13   &&  counter<14){
-     $('#conDiv1').append('<div class="strip"><div class="posi"><span>'+(counter1+1)+'</span></div><div><img src="" id="u_img_'+id+'" alt="" class="imgclassSmall"></div><div class="textLeft"><p>'+times+'<br> Sk ID:<a href="http://www.kktv1.com/m/?roomid='+id+'">'+id+'</a></p></div><div><p>'+name+'<img src="img/bean-min.png" alt="" class="imgClass4"></p></div></div>');
-    counter1++;
-  }
-  if(counter == 15)
   {
     $('#silverRankFrame2').append('<img src="" id="u_img_'+id+'" alt="" class="imgClass1"><br><p class="newText">'+times+'<br> Sk ID:<a href="http://www.kktv1.com/m/?roomid='+id+'">'+id+'</a><br>'+name+'<img src="img/bean-min.png" alt="" class="imgClass4"></p>');
   }
-  if(counter == 14){
+  if(counter == 10){
     $('#goldRankFrame2').append('<img src="" id="u_img_'+id+'" alt="" class="imgClass2"><br><p class="newText">'+times+'<br> Sk ID:<a href="http://www.kktv1.com/m/?roomid='+id+'">'+id+'</a><br>'+name+'<img src="img/bean-min.png" alt="" class="imgClass4"></p>');
   }
-  if(counter == 16){
+  if(counter == 12){
     $('#bronzeRankFrame2').append('<img src="" id="u_img_'+id+'" alt="" class="imgClass3"><br><p class="newText">'+times+'<br> Sk ID:<a href="http://www.kktv1.com/m/?roomid='+id+'">'+id+'</a><br>'+name+'<img src="img/bean-min.png" alt="" class="imgClass4"></p>');
   }
-  if(counter>=17   &&  counter<18){
-     $('#conDiv2').append('<div class="strip"><div class="posi"><span>'+(counter2+1)+'</span></div><div><img src="" id="u_img_'+id+'" alt="" class="imgclassSmall"></div><div class="textLeft"><p>'+times+'<br> Sk ID:<a href="http://www.kktv1.com/m/?roomid='+id+'">'+id+'</a></p></div><div><p>'+name+'<img src="img/bean-min.png" alt="" class="imgClass4"></p></div></div>');
-    counter2++;
-  }
-  if(counter == 19)
+  // if(counter>=17   &&  counter<18){
+  //    $('#conDiv2').append('<div class="strip"><div class="posi"><span>'+(counter2+1)+'</span></div><div><img src="" id="u_img_'+id+'" alt="" class="imgclassSmall"></div><div class="textLeft"><p>'+times+'<br> Sk ID:<a href="http://www.kktv1.com/m/?roomid='+id+'">'+id+'</a></p></div><div><p>'+name+'<img src="img/bean-min.png" alt="" class="imgClass4"></p></div></div>');
+  //   counter2++;
+  // }
+  if(counter == 14)
   {
     $('#silverRankFrame3').append('<img src="" id="u_img_'+id+'" alt="" class="imgClass1"><br><p class="newText">'+times+'<br> Sk ID:<a href="http://www.kktv1.com/m/?roomid='+id+'">'+id+'</a><br>'+name+'<img src="img/bean-min.png" alt="" class="imgClass4"></p>');
   }
-  if(counter == 18){
+  if(counter == 13){
     $('#goldRankFrame3').append('<img src="" id="u_img_'+id+'" alt="" class="imgClass2"><br><p class="newText">'+times+'<br> Sk ID:<a href="http://www.kktv1.com/m/?roomid='+id+'">'+id+'</a><br>'+name+'<img src="img/bean-min.png" alt="" class="imgClass4"></p>');
   }
-  if(counter == 20){
+  if(counter == 15){
     $('#bronzeRankFrame3').append('<img src="" id="u_img_'+id+'" alt="" class="imgClass3"><br><p class="newText">'+times+'<br> Sk ID:<a href="http://www.kktv1.com/m/?roomid='+id+'">'+id+'</a><br>'+name+'<img src="img/bean-min.png" alt="" class="imgClass4"></p>');
   }
-  if(counter>=21   &&  counter<22){
+  if(counter>=16   &&  counter<19){
      $('#conDiv3').append('<div class="strip"><div class="posi"><span>'+(counter3+1)+'</span></div><div><img src="" id="u_img_'+id+'" alt="" class="imgclassSmall"></div><div class="textLeft"><p>'+times+'<br> Sk ID:<a href="http://www.kktv1.com/m/?roomid='+id+'">'+id+'</a></p></div><div><p>'+name+'<img src="img/bean-min.png" alt="" class="imgClass4"></p></div></div>');
     counter3++;
   }

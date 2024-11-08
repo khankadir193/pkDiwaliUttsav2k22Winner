@@ -129,7 +129,8 @@ body {
   margin: 2vw auto;
   width: 93%;
   display: grid;
-  grid-template-columns: 33.33% 33.33% 33.33%;
+  grid-template-columns: 30% 30%;
+  justify-content: center;
 }
 .gameTypeBtn{
   border: 0vw;
