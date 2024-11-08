@@ -421,6 +421,15 @@ width: 18%;
 .posi{position: relative;top: 3vw;font-size: 3vw;}
 .newText{height: 13vw;position: relative;top: 7vw;font-size: 2.5vw;font-weight: bold;color: white;text-align: center;}
 
+.newText1{
+  height: 13vw;
+  position: relative;
+  top: 7vw;font-size: 2vw;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+}
+
 .beanspot{
   margin: -12vw auto;
   width: 70%;

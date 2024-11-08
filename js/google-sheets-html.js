@@ -121,7 +121,7 @@ function rowsCount(item){
     $('#goldRankFrame').append('<img src="" id="u_img_'+id+'" alt="" class="imgClass2"><br><p class="newText">'+times+'<br> Sk ID:<a href="http://www.kktv1.com/m/?roomid='+id+'">'+id+'</a><br>'+name+'<img src="img/bean-min.png" alt="" class="imgClass4"></p>');
   }
   if(counter == 2){
-    $('#bronzeRankFrame').append('<img src="" id="u_img_'+id+'" alt="" class="imgClass3"><br><p class="newText">'+times+'<br> Sk ID:<a href="http://www.kktv1.com/m/?roomid='+id+'">'+id+'</a><br>'+name+'<img src="img/bean-min.png" alt="" class="imgClass4"></p>');
+    $('#bronzeRankFrame').append('<img src="" id="u_img_'+id+'" alt="" class="imgClass3"><br><p class="newText1">'+times+'<br> Sk ID:<a href="http://www.kktv1.com/m/?roomid='+id+'">'+id+'</a><br>'+name+'<img src="img/bean-min.png" alt="" class="imgClass4"></p>');
   }
   if(counter>=3   &&  counter<10){
      $('#conDiv').append('<div class="strip"><div class="posi"><span>'+(counter+1)+'</span></div><div><img src="" id="u_img_'+id+'" alt="" class="imgclassSmall"></div><div class="textLeft"><p>'+times+'<br> Sk ID:<a href="http://www.kktv1.com/m/?roomid='+id+'">'+id+'</a></p></div><div><p>'+name+'<img src="img/bean-min.png" alt="" class="imgClass4"></p></div></div>');
